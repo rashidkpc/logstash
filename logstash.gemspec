@@ -60,6 +60,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency "php-serialize" # For input drupal_dblog
   gem.add_runtime_dependency "murmurhash3"
   gem.add_runtime_dependency "rufus-scheduler"
+  gem.add_runtime_dependency "sys/cpu"
 
   if RUBY_PLATFORM == 'java'
     gem.platform = RUBY_PLATFORM
